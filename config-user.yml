@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Config
+
+users:
+  - name: dev
+  - name: client
+
+contexts:
+  - name: dev
+    context:
+      user: dev
+      namespace: 
+        - dev
+        - prod
+  
+  - name: client
+    context:
+      user: client
+      namespace: 
+        - dev
