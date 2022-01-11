@@ -1,3 +1,3 @@
 # TP_K8S
 
-Groupe de Arhtur Viard et Glenn Oberlé
+Groupe de Arthur Viard et Glenn Oberlé
